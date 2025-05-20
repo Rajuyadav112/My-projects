@@ -2,42 +2,250 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
-  <navbar>
-    <div class='w-full py-3 border-b'>
 
-      <div class='flex justify-between px-20 items-center font-semibold'>
-        <div>
-          <h1 class="text-2xl">LOGO</h1>
+    <!-- header start -->
+    <header>
+        <div class="left">
+            <img src="image.png" class="logo" alt="">
+            <div class="searchcnt">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" class="search" placeholder="Enter something..." name="" id="">
+            </div>
         </div>
-        <div class='flex xl:gap-10 md:gap-8  gap-2'>
-          <a href="">Home</a>
-          <a href="">Work</a>
-          <a href="">About</a>
-          <a href="">Services</a>
-          <input type="text" id="Searchproduct" placeholder="Search product..">
+        <div class="right">
+            <ul class="allinks">
+                <li><a href=""> <button class="About">About us</button></a></li>
+                <li><a href=""> <button class="login">Login</button></a></li>
+                <li><a href=""> <button class="Register">Register</button></a></li>
+            </ul>
         </div>
-        <div>
-          <button class='py-2 px-6 bg-black text-white rounded-3xl font-semibold'>Contact</button>
+    </header>
+
+
+    <!-- header end -->
+
+    <!-- banner start -->
+    <section class="banner">
+        <div class="banner_items">
+            <h1 class="bannerheading">Build your body with gymster</h1>
+            <p class="bannerpara">Push your limits and build strength in a high-energy gym designed for all fitness
+                levels. Equipped with top-tier machines, free weights, and expert trainers to guide you. Your journey to
+                a healthier, stronger you starts here!</p>
+            <button class="get">Get started</button>
+            <button class="joinbtn">Join us</button>
+    </section>
+    <!-- banner end -->
+
+    <!--main section start-->
+    <main class="main_section">
+        <div class="card">
+            <img src="https://www.shutterstock.com/image-photo/young-man-sportswear-running-on-260nw-435565456.jpg"
+                alt="" class="card_image">
+            <h3 class="card_head"> Cardio section</h3>
+            <button class="card_btn">View more</button>
+        </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/472035980/photo/young-man-at-a-gym-enjoying-a-sauna.jpg?s=612x612&w=0&k=20&c=pFeX8iEivVCNe6itlTFZMVLq0gvVAowemNhrEJpumHs="
+                alt="" class="card_image">
+            <h3 class="card_head"> Steem Section</h3>
+            <button class="card_btn">View more</button>
+        </div>
+        <div class="card">
+            <img src="https://cdn.muscleandstrength.com/sites/default/files/styles/800x500/public/lean-man-doing-lateral-raises.jpg?itok=ug5NBdtX"
+                alt="" class="card_image">
+            <h3 class="card_head">Workout section</h3>
+            <button class="card_btn">View more</button>
+        </div>
+    </main>
+    <!--main section end-->
+
+    <!-- Testimonial start -->
+    <section class="test_page">
+        <div class="testimonial_card">
+            <div class="card_up">
+                <img src="https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg"
+                    alt="" class="card-img">
+                <p class="Testimonial_para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, libero.
+                </p>
+            </div>
+            <div class="test_down">
+                <p class="name">Mark wood</p>
+                <p class="font_class"><i class="fa-solid fa-star"></i></p>
+                <p><i class="fa-solid fa-star"></i></p>
+                <p><i class="fa-solid fa-star"></i></p>
+                <p><i class="fa-solid fa-star"></i></p>
+            </div>
+        </div>
+        <div class="testimonial_card">
+            <div class="card_up">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2VmmosNpqwr-lA-jV8AGs3EpeeHXOu2v1Fg&s"
+                    alt="" class="card-img">
+                <p class="Testimonial_para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, libero.
+                </p>
+            </div>
+            <div class="test_down">
+                <p class="name">Dwayne jhonson</p>
+                <p class="font_class"><i class="fa-solid fa-star"></i></p>
+                <p><i class="fa-solid fa-star"></i></p>
+                <p><i class="fa-solid fa-star"></i></p>
+                <p><i class="fa-solid fa-star"></i></p>
+            </div>
+        </div>
+        <div class="testimonial_card">
+            <div class="card_up">
+                <img src="https://ng-sportingnews.com/s3/files/styles/crop_style_16_9_desktop/s3/2023-11/Chris%20Bumstead.jpg?h=920929c4&itok=RStg2Vuh"
+                    alt="" class="card-img">
+                <p class="Testimonial_para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, libero.
+                </p>
+            </div>
+            <div class="test_down">
+                <p class="name">Cbum</p>
+                <p class="font_class"><i class="fa-solid fa-star"></i></p>
+                <p><i class="fa-solid fa-star"></i></p>
+                <p><i class="fa-solid fa-star"></i></p>
+                <p><i class="fa-solid fa-star"></i></p>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial End -->
+
+<!-- chatbot start -->
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgrf4DEg3I
+ THx54xcrZU2gzf6KmJJHtubLog&s" id="bot_img" alt="">
+
+ <section id="bot_msg_cnt">
+    <div class="container py-5">
+  
+      <div class="row d-flex justify-content-center">
+        <!-- <div class="col-md-8 col-lg-6 col-xl-4"> -->
+          <div class="card" id="chat1" style="border-radius: 15px; width: 30rem; height: 95vh;">
+            <div
+              class="card-header d-flex justify-content-between align-items-center p-3 bg-info text-white border-bottom-0"
+              style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+              <i class="fas fa-angle-left"></i>
+              <p class="mb-0 fw-bold">Live chat</p>
+              <i id="cross" class="fas fa-times"></i>
+            </div>
+            <div class="card-body">
+  
+              <div class="d-flex flex-row justify-content-start mb-4">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava1-bg.webp"
+                  alt="avatar 1" style="width: 45px; height: 100%;">
+                <div class="p-3 ms-3" style="border-radius: 15px; background-color: rgba(57, 192, 237,.2);">
+                  <p class="small mb-0">Hello and thank you for visiting MDBootstrap. Please click the video
+                    below.</p>
+                </div>
+              </div>
+  
+              <div class="d-flex flex-row justify-content-end mb-4">
+                <div class="p-3 me-3 border bg-body-tertiary" style="border-radius: 15px;">
+                  <p class="small mb-0">Thank you, I really like your product.</p>
+                </div>
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava2-bg.webp"
+                  alt="avatar 1" style="width: 45px; height: 100%;">
+              </div>
+  
+              <div class="d-flex flex-row justify-content-start mb-4">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava1-bg.webp"
+                  alt="avatar 1" style="width: 45px; height: 100%;">
+                <div class="ms-3" style="border-radius: 15px;">
+                  <div class="bg-image">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/screenshot1.webp"
+                      style="border-radius: 15px;" alt="video">
+                    <a href="#!">
+                      <div class="mask"></div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="d-flex flex-row justify-content-start mb-4">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava1-bg.webp"
+                  alt="avatar 1" style="width: 45px; height: 100%;">
+                <div class="p-3 ms-3" style="border-radius: 15px; background-color: rgba(57, 192, 237,.2);">
+                  <p class="small mb-0">...</p>
+                </div>
+              </div>
+  
+              <div data-mdb-input-init class="form-outline">
+                <textarea class="form-control bg-body-tertiary" id="textAreaExample" rows="4"></textarea>
+                <label class="form-label" for="textAreaExample">Type your message</label>
+              </div>
+  
+            </div>
+          </div>
+  
         </div>
       </div>
-
-    </div>
-  </navbar>
-  <main id="Alldata" class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
-
-  </main>
-
-<div id="footer">
   
-</div>
-  <script src="script.js"></script>
+    </div>
+  </section>
+<!-- chatbot End -->
+
+    <div class="main_container">
+        <div class="basic_advance_card">
+            <div class="up">
+                <p class="planName">Basic</p>
+                <h1>$19.<span class="number">95</span></h1>
+                <p>Per month</p>
+            </div>
+            <div class="down">
+                <p>Features of this plan</p>
+                <p> Another Features of this plan</p>
+                <p> Yet Features of this plan</p>
+                <button class="btn-adv">Get started</button>
+            </div>
+        </div>
+        <div class="popular_plan">
+            <h4 class="heading">Most popular</h4>
+            <p class="para">Standard</p>
+            <h1 class="heading2">$45.<span>95</span></h1>
+            <p>Per month</p>
+            <!-- <br><br> -->
+            <p>Features of this plan</p>
+            <p> Another Features of this plan</p>
+            <p> Yet Features of this plan</p>
+            <button class="Get_start">Get started</button>
+        </div>
+        <div class="basic_advance_card">
+            <div class="up">
+                <p class="planName">Advanced</p>
+                <h1>$99.<span class="number">95</span></h1>
+                <p>Per month</p>
+            </div>
+            <div class="down">
+                <p>Features of this plan</p>
+                <p> Another Features of this plan</p>
+                <p> Yet Features of this plan</p>
+                <button class="downbtn">Get started</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let bot_msg_cnt = document.getElementById("bot_msg_cnt")
+        let bot_img = document.getElementById("bot_img")
+        let cross = document.getElementById("cross")
+        bot_img.addEventListener("click", ()=>{
+            bot_msg_cnt.style.display = 'block'
+        })
+        cross.addEventListener("click", ()=>{
+            bot_msg_cnt.style.display = 'none'
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

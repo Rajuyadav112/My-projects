@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_container{
+    height: 450px;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.basic_advance_card{
+    height: 300px;
+    width: 25%;
+    border: 2px solid blue;
+    
+}
+.popular_plan{
+    height: 380px;
+    width: 25%;
+    border: 2px solid blue;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.up{
+    text-align: center;
+    height: 45%;
+    width: 100%;
+    padding-top: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.down{
+    height: 55%;
+    width: 100%;
+    background-color:blue;
+}
+.planName{
+    color: blue;
+    text-transform: capitalize;
+    
+}
+.number{
+    font-size: 20px;
+}
+.down{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+}
+.btn-adv{
+    margin-top: -10%;
+}
+.heading{
+    margin-top: 8%;
+    font-size: larger;
+    color: yellow;
+}
+.para{
+    margin-top: 4%;
+}
+.heading2{
+    margin-top: 3%;
+}
+
+.btn:hover{
+    color: white;
+    background-color: blue;
+}
+.Get_start{
+    
+    margin-top: 6%;
+    background-color: yellow;
+
+}
+.Get_start:hover{
+    
+    background-color:blue;
+}
+
+header{
+height: 12vh;
+width: 100%;
+/* background-color:lightcoral; */
+display: flex;
+}
+
+.left{
+    height: inherit;
+    width: 60%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.right{
+    height: inherit;
+    width: 40%;
+    /* background-color:; */
+}
+.logo{
+    height: 12vh;
+    width: 15%;
+}
+
+.search{
+    /* border: 2px solid; */
+    height: 30px;
+    border: none;
+    outline: none;
+    padding-left: 12px;
+    background-color: gray;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.searchcnt{
+    width: 70%;
+    background-color: white;
+    padding-right: 12px;
+    display: flex;
+    align-items: center;
+}
+
+::placeholder{
+    color: black;
+    font-size: 14px;
+}
+.allinks{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    list-style-type: none;
+}
+.About{
+    background-color:crimson;
+    color: whitesmoke;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: 60;
+}
+.About:hover{
+    color: crimson;
+    background-color: whitesmoke;
+}
+.login{
+    background-color:crimson;
+    color: whitesmoke;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: 60;
+}
+
+.login:hover{
+    color: crimson;
+    background-color: whitesmoke;
+}
+
+.Register{
+    background-color:crimson;
+    color: whitesmoke;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: 60;
+}
+
+.Register:hover{
+    color: crimson;
+    background-color: whitesmoke;
+}
+
+.banner{
+    background-image: url("https://t3.ftcdn.net/jpg/06/51/49/90/360_F_651499051_tQQimfoC1v8z8cD7m0mQjXElxJrMFppt.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner_items{
+    height: 50%;
+    width: 50%;
+    /* background-color: aliceblue; */
+    word-spacing: 2px;
+    text-align: center;
+    color: orangered;
+}
+.bannerheading{
+    text-transform: capitalize;
+    font-size: larger;
+    font-size: 50px;
+}
+.bannerpara{
+    color:orangered;
+    margin-top: 12px;
+    font-size: larger;
+    font-weight: 550px;
+}
+
+.getbtn{
+    margin-top: 4%;
+    font-size: larger;
+}
+
+.joinbtn{
+    margin-top: 4%;
+    font-size: larger;
+}
+
+.main_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: fit-content;
+    width: 100%;
+    /* background-color: lightgray; */
+    padding-top: 50px 0;
+}
+.card{
+    height: 250px;
+    width: 30%;
+    /* border: 2px solid red; */
+    margin: 20px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+.card_image{
+    height: 70%;
+    width: 100%;
+}
+
+.card_image:hover{
+transform: scale(1.02);
+}
+
+.card_head{
+color: orangered;
+margin-top: 6px;
+font-size: 25px;
+font-weight: bold;
+font-family: 'Courier New', Courier, monospace;
+}
+.card_btn{
+margin-top: 8px;
+font-weight: bolder;
+font-size: 15px;
+}
+
+.card_btn:hover{
+    background-color: green;
+}
+
+.testimonial_card{
+    height: 400px;
+    width: 30%;
+    margin-bottom: -250px;
+}
+
+.card-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.card_up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.test_down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+}
+
+.name{
+    color: black;
+}
+
+.test_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+    #bot_img{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        margin-bottom: 20px;
+    }
+
+    #bot_msg_cnt{
+        position: fixed;
+        left: 35%;
+        top: 100px;
+        display: none;
+    }

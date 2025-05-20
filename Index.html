@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- em to px coverter -->
+ <!-- <h1>EM to PX converter</h1> -->
+    <div class="em">
+        <input type="number"  id="em_value" placeholder="enter em value">
+        <input type="number"  id="px_value">
+        <br><br>
+        <button id="convert" onclick="convert()">convert</button>
+    </div>
+<script>
+    let emvalue = document.getElementById("em_value")
+    let pxvalue = document.getElementById("px_value")
+    function convert(){
+        let emval = Number(emvalue.value)
+        let total = emval*16;
+        pxvalue.value=total
+    }
+    
+</script>
+
+    <!-- <h1 class="heading">Calculator</h1>
+    <div class="input">
+        <input type="number1" id="number1">
+        <input type="number2" id="number2">
+        <br><br>
+        
+        <button id="add" onclick="addition()">+</button>
+        <button id="sub" onclick="substraction()">-</button>
+        <button id="multiplication" onclick="multiplication()">*</button>
+        <button id="div" onclick="division()">/</button>
+
+<p>Result :<span id="Result"></span></p>
+
+
+
+<script>
+   let num1 = document.getElementById("number1")
+   let num2 = document.getElementById("number2")
+   let Result = document.getElementById("Result")
+    function addition(){
+     let firstnum = Number(num1.value)
+     let secondnum = Number(num2.value)  
+     console.log(number1,number2)
+     let total = firstnum+secondnum;
+    //  console.log(total) 
+    Result.textContent = total
+    Result.style.color = "red"
+    }
+    // addition(number1+number2)
+    function substraction(){
+     let firstnum = Number(num1.value)
+     let secondnum = Number(num2.value)  
+     console.log(number1,number2)
+     let total = firstnum-secondnum;
+     Result.textContent = total
+    }
+
+    function multiplication(){
+     let firstnum = Number(num1.value)
+     let secondnum = Number(num2.value)  
+     console.log(number1,number2)
+     let total = firstnum*secondnum;
+     Result.textContent = total
+    }
+
+    function division(){
+     let firstnum = Number(num1.value)
+     let secondnum = Number(num2.value)  
+     console.log(number1,number2)
+     let total = firstnum/secondnum;
+     Result.textContent = total
+    }
+</script>
+
+</html> -->
